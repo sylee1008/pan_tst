@@ -11,7 +11,7 @@
 body {
 	font-family: Verdana, Arial, Helvetica, sans-serif; /* changed from UCSD Helvetica */
 	font-size: 62.5%; /* We will use a 10 pixel baseline font size for ease of calculating */
-	/* background-color: #000000; changed from #000024 */ /* changed from UCSD */
+	<!-- background-color: #000000; --> /* changed from #000024 */ /* changed from UCSD */
 	margin-top: 35px;
 	color: #000000;
 }
