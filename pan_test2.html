@@ -22,6 +22,17 @@
       body {
         margin-top: 35px;
       }
+      #content {
+        width: 640px; /* was: 780px */
+        clear: both;
+        position: relative;
+        overflow: auto;
+      }
+      .contentClearingDiv { /* This also provides the bottom margin for the content div */
+        width: 640px; /* was: 780px */
+        height: 1px;
+        clear: both;
+      }
       #content a {
         color: #000000; 
         text-decoration: none;
