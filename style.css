@@ -10,7 +10,7 @@
 	
 body {
 	font-family: Verdana, Arial, Helvetica, sans-serif; /* changed from UCSD Helvetica */
-	font-size: 62.5%; /* We will use a 10 pixel baseline font size for ease of calculating */
+	font-size: 90%; /* We will use a 10 pixel baseline font size for ease of calculating */
 	background-color: #a60f2d; /* changed from #000024 */ /* changed from UCSD */
 	margin-top: 35px;
 	color: #000000;
@@ -29,7 +29,7 @@ a:hover {
         background-color: #F1B82D;
 }
 #wrapper {
-	width: 820px; /* was: 780px */
+	width: 780px; /* was: 780px */
 	text-align: left;
 /*	background-image: url(../images/wrapperBG_personalPages.gif);
 	background-repeat: repeat-y; */
@@ -369,11 +369,15 @@ h1#name {
 	padding-top: 9px;
 	margin-bottom: 9px;
 }
-#moreInfo h1 { /* was: h2 */
-	background-color: #F1B82D; /* was: CCCC99 */ /* UCSD: #edf7fa */
-	border-top: solid 1px #e0e0e0;
-	border-bottom: solid 1px #e0e0e0;
-	padding: 6px 0px 6px 50px; /* UCSD: 6px 60px 3px 60px */
+#wrapper h1 { /* was: h2 */
+	background-color: #a60f2d; /* was: CCCC99 */ /* UCSD: #edf7fa */
+	color:#e0e0e0;
+	border-top: solid 0px #FFFFFF;
+	border-bottom: solid 0px #e0e0e0;
+	padding: 0px 0px 0px 50px; /* UCSD: 6px 60px 3px 60px */
+}
+#wrapper sm {
+	font-size: 75%
 }
 #moreInfo h2 { /* was: missing */
 	padding-top: 9px;
